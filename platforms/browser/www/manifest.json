@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "NeuroCalc",
+  "short_name": "NeuroCalc",
+  "version": "com.ohalloran.NeuroCalc",
+  "description": "Calculator for Nernst and Goldman Hogkin Katz equations.",
+  "author": "PhoneGap Team",
+  "icons": [],
+  "start_url": "index.html"
+}

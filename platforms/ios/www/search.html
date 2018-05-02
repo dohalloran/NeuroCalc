@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="msapplication-tap-highlight" content="no" />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+		<!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+		<meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+		<title>NeuroFacts</title>
+		<link rel="stylesheet" href="css/quiz.css">
+		<script src="js/jquery.min.js"></script>
+	</head>
+	<body>
+		<FORM name="myForm1">
+			<h1>Learn NeuroFacts</h1>
+			<div style="text-align:center;">
+				<textarea id="myTextarea" rows="1" cols="20" placeholder="Enter Search Term..."></textarea>
+				<input id="btn" type="button" value="Submit" onclick="searchFunction()">
+			<div class="main">
+			</div>
+			<h3>Slide Over Terms</h3>
+			<div class="slidecontainer">
+				<input type="range" min="1" max="190" value="95" class="slider" id="myRange">
+			</div>
+			</div>
+			<div class="main2">
+			</div>
+		</div>
+		</form>
+		<script src="js/search.js"></script>
+		<form>
+			<div style="text-align:center;">
+			<input type="reset" value="Reset" onClick="window.location.reload()">
+		</div>
+			<button type="submit"><a href="index.html" title="Home">Home</a>
+			</button>
+		</form>
+	</html>
