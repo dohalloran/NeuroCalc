@@ -2,7 +2,7 @@
 <widget id="com.ohalloran.NeuroCalc" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>NeuroCalc</name>
     <description>
-        Calculator for Nernst and Goldman Hogkin Katz equations.
+        Calculator for Nernst and Goldman–Hodgkin–Katz equations.
     </description>
     <author email="dmohalloran28@gmail.com" href="www.ohalloranlab.net">
         PhoneGap Team
