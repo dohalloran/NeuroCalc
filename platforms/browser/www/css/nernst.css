@@ -1,3 +1,4 @@
+
 *,
 *:before,
 *:after {
@@ -88,15 +89,13 @@ button {
     margin-bottom: 10px;
 }
 
+
 input {
-    padding: 19px 39px 18px 39px;
-    color: #FFF;
-    background-color: #3B5998;
     font-size: 18px;
     text-align: center;
     font-style: normal;
     border-radius: 5px;
-    width: 50%;
+    width: 20%;
     border: 1px solid #3ac162;
     margin-bottom: 10px;
 }
@@ -145,149 +144,148 @@ label.light {
 
 
 ul {
-	list-style: none;
+    list-style: none;
 }
 li {
-	text-decoration: none;
-	margin:10px;
-	padding: 10px;
+    text-decoration: none;
+    margin:10px;
+    padding: 10px;
 }
 
 .dropdown {
-	margin-right: 3px;
-	/*z-index: 999;*/
-	position: absolute;
-	top: 115px;
-	padding-left: 0;
-	box-shadow: 1px 1px 10px ;
+    margin-right: 3px;
+    /*z-index: 999;*/
+    position: absolute;
+    top: 115px;
+    padding-left: 0;
+    box-shadow: 1px 1px 10px ;
   /*dropdow is hidden by default*/
-	display: none; 
+    display: none; 
 }
 
 .wrapper {
-	background: #d7ff99;
-	padding: 3px 15px;
-	border-radius: 4px;
-	width: 100px;
+    background: #d7ff99;
+    padding: 3px 15px;
+    border-radius: 4px;
+    width: 100px;
 }
 .dropdown li {
-	
-	border: 0px;
-	font-size: 0.9em;
-	width:100px;
-	margin: 0px;
-	background: white;
+    
+    border: 0px;
+    font-size: 0.9em;
+    width:100px;
+    margin: 0px;
+    background: white;
 }
 
 li:hover {
-	background: #ECEEF0;
+    background: #ECEEF0;
 }
 /*disable hover effect when li tag is selected*/
 .selected, .selected:hover {
-	background: #FFDEAD;
+    background: #FFDEAD;
 }
 
 .correct, .correct:hover {
-	background: #9ACD32;
-	color: white;
+    background: #9ACD32;
+    color: white;
 }
 
 .wrong, .wrong:hover {
-	background: red;
-	color: white;
+    background: red;
+    color: white;
 }
 
 .submit {
-	color: white;
-	background: #2DB82D;
+    color: white;
+    background: #2DB82D;
 }
 .next {
-	background: #B0C4DE;
+    background: #B0C4DE;
 }
 .finalize {
-	background: #1A1AFF;
+    background: #1A1AFF;
 }
 .back {
-	background: #ffff33;
+    background: #ffff33;
 }
 .doNotDisplay {
-	display: none;
+    display: none;
 }
 
 td,th {
-	border:1px solid lightgray;
-	padding: 10px;
-	text-transform: uppercase;
-	font-weight: 700;
-	/*font-size:14px;*/
+    border:1px solid lightgray;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    /*font-size:14px;*/
 }
 
 th {
-	border-bottom:3px solid gray;
-	background: #C2CCE0;
+    border-bottom:3px solid gray;
+    background: #C2CCE0;
 }
 
 table {
-	border:2px solid gray;
-	border-spacing: 0px;
-	border-collapse: collapse;
+    border:2px solid gray;
+    border-spacing: 0px;
+    border-collapse: collapse;
 }
 
 td {
-	cursor:pointer;
+    cursor:pointer;
 }
 
 .questionCol {
-	color: #5b666f;
+    color: #5b666f;
 }
 .correctCol {
-	color: #6a9d21;
+    color: #6a9d21;
 }
 .wrongCol {
-	color: #9d2138;
+    color: #9d2138;
 }
 .pAboveTable {
-	font-size: 1.4em;
+    font-size: 1.4em;
 }
 /*tr {
-	cursor:pointer;
+    cursor:pointer;
 }*/
 
 .slidecontainer {
-    width: 100%; /* Width of the outside container */
+    width: 100%;
 }
 
-/* The slider itself */
 .slider {
-    -webkit-appearance: none;  /* Override default CSS styles */
-    appearance: none;
-    width: 100%; /* Full-width */
-    height: 25px; /* Specified height */
-    background: #d3d3d3; /* Grey background */
-    outline: none; /* Remove outline */
-    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
-    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
     transition: opacity .2s;
 }
 
-/* Mouse-over effects */
 .slider:hover {
-    opacity: 1; /* Fully shown on mouse-over */
+    opacity: 1;
 }
 
-/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */ 
 .slider::-webkit-slider-thumb {
-    -webkit-appearance: none; /* Override default look */
+    -webkit-appearance: none;
     appearance: none;
-    width: 25px; /* Set a specific slider handle width */
-    height: 25px; /* Slider handle height */
-    background: #4CAF50; /* Green background */
-    cursor: pointer; /* Cursor on hover */
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
 }
 
 .slider::-moz-range-thumb {
-    width: 25px; /* Set a specific slider handle width */
-    height: 25px; /* Slider handle height */
-    background: #4CAF50; /* Green background */
-    cursor: pointer; /* Cursor on hover */
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
 }
