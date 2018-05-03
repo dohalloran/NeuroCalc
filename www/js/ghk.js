@@ -51,6 +51,18 @@
                 console.log(permK);
                 var permCl = document.getElementById("cl").value;
                 console.log(permCl);
+                if (!permNa) {
+                	alert("permeability must be defined");
+                	return;
+                }
+                if (!permK) {
+                	alert("permeability must be defined");
+                	return;
+                }
+                if (!permCl) {
+                	alert("ppermeability must be defined");
+                	return;
+                }
 
                 console.log(slider4.value);
                 console.log(slider5.value);
