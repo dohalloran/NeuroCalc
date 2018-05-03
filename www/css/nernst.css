@@ -1,3 +1,4 @@
+
 *,
 *:before,
 *:after {
@@ -31,7 +32,7 @@
 
 body {
     font-family: 'Nunito', sans-serif;
-    color: #0f287f;
+    color: #384047;
 }
 
 form {
@@ -76,27 +77,25 @@ select {
 button {
     padding: 19px 39px 18px 39px;
     color: #FFF;
-    background-color: #D0BAFB;
+    background-color: #4bc970;
     font-size: 18px;
     text-align: center;
     font-style: normal;
     border-radius: 5px;
     width: 100%;
-    border: 1px solid #D0BAFB;
+    border: 1px solid #3ac162;
     border-width: 1px 1px 3px;
     box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
     margin-bottom: 10px;
 }
 
+
 input {
-    padding: 19px 39px 18px 39px;
-    color: #FFF;
-    background-color: #3B5998;
     font-size: 18px;
     text-align: center;
     font-style: normal;
     border-radius: 5px;
-    width: 50%;
+    width: 20%;
     border: 1px solid #3ac162;
     margin-bottom: 10px;
 }
@@ -145,14 +144,148 @@ label.light {
 
 
 ul {
-	list-style: none;
+    list-style: none;
 }
 li {
-	text-decoration: none;
-	margin:10px;
-	padding: 10px;
+    text-decoration: none;
+    margin:10px;
+    padding: 10px;
 }
 
+.dropdown {
+    margin-right: 3px;
+    /*z-index: 999;*/
+    position: absolute;
+    top: 115px;
+    padding-left: 0;
+    box-shadow: 1px 1px 10px ;
+  /*dropdow is hidden by default*/
+    display: none; 
+}
 
+.wrapper {
+    background: #d7ff99;
+    padding: 3px 15px;
+    border-radius: 4px;
+    width: 100px;
+}
+.dropdown li {
+    
+    border: 0px;
+    font-size: 0.9em;
+    width:100px;
+    margin: 0px;
+    background: white;
+}
 
+li:hover {
+    background: #ECEEF0;
+}
+/*disable hover effect when li tag is selected*/
+.selected, .selected:hover {
+    background: #FFDEAD;
+}
 
+.correct, .correct:hover {
+    background: #9ACD32;
+    color: white;
+}
+
+.wrong, .wrong:hover {
+    background: red;
+    color: white;
+}
+
+.submit {
+    color: white;
+    background: #2DB82D;
+}
+.next {
+    background: #B0C4DE;
+}
+.finalize {
+    background: #1A1AFF;
+}
+.back {
+    background: #ffff33;
+}
+.doNotDisplay {
+    display: none;
+}
+
+td,th {
+    border:1px solid lightgray;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    /*font-size:14px;*/
+}
+
+th {
+    border-bottom:3px solid gray;
+    background: #C2CCE0;
+}
+
+table {
+    border:2px solid gray;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+td {
+    cursor:pointer;
+}
+
+.questionCol {
+    color: #5b666f;
+}
+.correctCol {
+    color: #6a9d21;
+}
+.wrongCol {
+    color: #9d2138;
+}
+.pAboveTable {
+    font-size: 1.4em;
+}
+/*tr {
+    cursor:pointer;
+}*/
+
+.slidecontainer {
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
