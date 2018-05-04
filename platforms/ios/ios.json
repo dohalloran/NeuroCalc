@@ -63,13 +63,13 @@
         "parents": {
           "NSCameraUsageDescription": [
             {
-              "xml": "<string> </string>",
+              "xml": "<string> This app does not require access to the camera.</string>",
               "count": 2
             }
           ],
           "NSPhotoLibraryUsageDescription": [
             {
-              "xml": "<string> </string>",
+              "xml": "<string> This app does not require access to the photo lib.</string>",
               "count": 2
             }
           ],
@@ -85,7 +85,7 @@
           ],
           "NSMicrophoneUsageDescription": [
             {
-              "xml": "<string> </string>",
+              "xml": "<string>This app does not require access to the microphone. </string>",
               "count": 1
             }
           ]
