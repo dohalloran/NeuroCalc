@@ -18,6 +18,7 @@
         <icon density="xxxhdpi" src="www/res/mipmap-xxxhdpi/ic_launcher.png" />
     </platform>
     <platform name="ios">
+        <icon height="152" platform="ios" src="www/res/icon/Icon-App-152x152.png" width="152" />
         <icon height="120" platform="ios" src="www/res/icon/Icon-App-120x120.png" width="120" />
         <icon height="20" platform="ios" src="www/res/icon/Icon-App-20x20@1x.png" width="20" />
         <icon height="20" platform="ios" src="www/res/icon/Icon-App-20x20@2x.png" width="20" />
