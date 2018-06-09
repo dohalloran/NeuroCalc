@@ -1,6 +1,6 @@
 {
   "name": "com.ohalloran.neurocalc",
-  "version": "1.3",
+  "version": "1.5",
   "displayName": "NeuroCalc",
   "cordova": {
     "platforms": [
