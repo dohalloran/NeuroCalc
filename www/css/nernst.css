@@ -64,8 +64,12 @@ select {
 }
 
 input[type="radio"],
-input[type="checkbox"] {
+input[type="checkbox"],
+input#btn,
+input#rst {
     margin: 0 4px 8px 0;
+    padding: 2px;
+    width: auto;
 }
 
 select {
